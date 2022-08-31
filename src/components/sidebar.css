@@ -1,0 +1,38 @@
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  border-right: 1px solid black;
+}
+
+.user {
+  width: 98%;
+  height: 58px;
+  border: 1px solid lightgray;
+  background-color: #f3e3e3;
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.serach {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.searchbar {
+  border: none;
+  font-size: 17px;
+}
+.searchbar:focus {
+  outline: none;
+}
+
+.searchbar::placeholder {
+  font-size: 16px;
+}

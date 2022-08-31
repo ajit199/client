@@ -1,0 +1,55 @@
+.inputBoxContainer {
+  /* border: 1px solid black; */
+  flex: 1;
+  height: 100vh;
+  position: relative;
+}
+
+.messageContainer {
+  height: 90%;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+.chatBoxBottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+
+.chatMessageInput {
+  width: 91%;
+  padding: 10px 0px;
+  font-size: 17px;
+}
+
+.chatMessageInput:focus {
+  outline: none;
+}
+
+.chatSubmitButton {
+  background-color: #f3e6e6;
+  border: none;
+  font-size: 34px;
+  color: gray;
+  margin-left: 10px;
+}
+
+.chatContainer {
+  position: relative;
+  width: 100%;
+}
+
+.mock {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 31%;
+  color: gray;
+}
+
+.mock > h1 {
+  font-weight: 100;
+  margin: 10px 0;
+}
